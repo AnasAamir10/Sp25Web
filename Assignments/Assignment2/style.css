@@ -34,8 +34,9 @@ body {
   .nav-links {
     list-style: none;
     display: flex;
+    text-align: center;
+    align-items: center;
     gap: 4px;
-    align-self: center;
     font-size: 10px;
   }
   nav .nav-links li{
@@ -95,6 +96,15 @@ body {
     font-weight: 600;
   }
   
+  .btn-order {
+    background-color: #ff5733;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 45px;
+    font-weight: 600;
+  }
+
   /* Menu Section */
   .menu {
     padding: 40px 20px;
